@@ -9,12 +9,12 @@ import Footer from "../Footer";
 function ProductsPage() {
   return (
     <>
-      <Navbar />
+      
       <Hero />
       <LeftSection />
       <RightSection />
       <Universe />
-      <Footer />
+      
     </>
   );
 }
