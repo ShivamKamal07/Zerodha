@@ -1,6 +1,6 @@
 import React from "react";
 
-function RightSection({ imageURL, productName, productDesription, learnMore }) {
+function RightSection({ imageURL, productName, productDescription, learnMore }) {
   return (
     <div className="container mt-5">
       <div className="row">

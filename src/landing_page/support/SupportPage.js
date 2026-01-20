@@ -7,8 +7,9 @@ import Footer from "../Footer";
 function SupportPage() {
   return (
     <>
-      <CreateTicket />
+      
       <Hero />
+      <CreateTicket />
     </>
   );
 }
