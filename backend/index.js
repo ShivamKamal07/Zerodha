@@ -201,11 +201,12 @@ mongoose
 
 app.use(
   cors({
-    origin: ["https://zerodha-al48.vercel.app/"],
+    origin: ["https://zerodha-al48.vercel.app/","https://zerodha-alpha-two.vercel.app/"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   }),
 );
+app.use(cookieParser());
 
 app.get("/allHoldings", async (req, res) => {
   let allHoldings = await HoldingsModel.find({});
